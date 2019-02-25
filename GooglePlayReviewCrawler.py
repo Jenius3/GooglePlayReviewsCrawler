@@ -14,7 +14,7 @@ all_reviews_tag = "UD7Dzf"
 full_reviews_tag = "OzU4dc"
 users_tag = "X43Kjb"
 dates_tag = "p2TkOb"
-start_tag = "pf5lIe"
+stars_tag = "nt2C1d"
 solid_start_tag = "vQhuPe"
 scroll_to_bottom = "window.scrollTo(0, document.body.scrollHeight);"
 
@@ -60,7 +60,7 @@ while app_num < len(app_ip):
     reviews = driver.find_elements_by_class_name(all_reviews_tag)
     dates = driver.find_elements_by_class_name(dates_tag)
     users = driver.find_elements_by_class_name(users_tag)
-    stars = driver.find_elements_by_class_name("pf5lIe");
+    stars = driver.find_elements_by_class_name(stars_tag);
 
     final_json = []
     print("start to build json")
